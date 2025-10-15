@@ -1,0 +1,23 @@
+body {
+    background-color: #111;
+    color: #eee;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    overflow: hidden; /* Prevents scrollbars from appearing */
+}
+
+h1, p {
+    text-shadow: 2px 2px 4px #000;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #555;
+    cursor: grab;
+}
+
+canvas:active {
+    cursor: grabbing;
+}
